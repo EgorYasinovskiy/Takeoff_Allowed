@@ -1,7 +1,7 @@
 ﻿using System;
 using TakeoffAllowed.Model.Sctructs;
 
-namespace TakeoffAllowed.Model
+namespace TakeoffAllowed.Model.GameObjects
 {
 	public abstract class Airplane
 	{

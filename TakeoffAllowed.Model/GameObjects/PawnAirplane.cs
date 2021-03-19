@@ -12,7 +12,7 @@ namespace TakeoffAllowed.Model.GameObjects
 		#region Airplane movement logic
 
 		// Lower height for landing or to avoid collision.
-		public void Decline()
+		public void Decrease()
 		{
 			throw new NotImplementedException("Impliment declining method.");
 		}
@@ -38,7 +38,7 @@ namespace TakeoffAllowed.Model.GameObjects
 		#endregion Airplane movement logic
 
 		// Для разных уровней и сложностей должны будут появляться разные факторы, вляющие на логику действий передвижения.
-		// Например, на легком уровне мы можем отправлять на посадку, столько раз, сколько это потребуется, на уровнях сложнее мы должны будем учитывать количество топлива
+		// Например, на легком уровне мы можем отправлять самолет на второй круг, столько раз, сколько это потребуется, на уровнях сложнее мы должны будем учитывать количество топлива
 		// TODO: Добавить систему топлива в модель. Реализовать ее влияние на повышенном уровне сложности.
 		// И уменьшать его с каждым заходом на второй круг.
 	}
