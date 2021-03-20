@@ -3,7 +3,7 @@ using TakeoffAllowed.Model.Sctructs;
 
 namespace TakeoffAllowed.Model.GameObjects
 {
-	internal class PawnAirplane : Airplane
+	public class PawnAirplane : Airplane
 	{
 		public PawnAirplane(double velocity, PointF3D location, Vector3D direction) : base(velocity, location, direction)
 		{
